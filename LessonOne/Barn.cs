@@ -11,7 +11,8 @@ namespace LessonOne
         readonly Light light = new();
         public string Material { get; private set; }
 
-        public Barn(string name, double height, double width, double depth, string material) : base(name, height, width, depth)
+        public Barn(string name, double height, double width, double depth, string material)
+            : base(name, height, width, depth)
         {
             Material = material;
         }
