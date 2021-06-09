@@ -8,10 +8,10 @@ namespace LessonOne
 {
     internal abstract class Building
     {
-        public string Name { get; set; }
-        public double Height { get; set; }
-        public double Width { get; set; }
-        public double Depth { get; set; }
+        public string Name { get; private set; }
+        public double Height { get; private set; }
+        public double Width { get; private set; }
+        public double Depth { get; private set; }
 
         public Building(string name, double height, double width, double depth)
         {
