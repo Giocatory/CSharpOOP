@@ -26,7 +26,7 @@ namespace LessonOne
         // delegate method and Implementing the interface method
         public void TurningOnLight(bool turn)
         {
-            light.TrunOnOf(turn);
+            light.TurningOnLight(turn);
         }
     }
 }

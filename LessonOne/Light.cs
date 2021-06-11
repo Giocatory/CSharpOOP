@@ -2,9 +2,9 @@
 
 namespace LessonOne
 {
-    internal sealed class Light
+    internal sealed class Light: IAreaValue
     {
-        public void TrunOnOf(bool turn)
+        public void TurningOnLight(bool turn)
         {
             if (turn)
             {
