@@ -8,6 +8,6 @@ namespace LessonOne
 {
     interface IAreaValue
     {
-
+        public void TurningOnLight(bool turn);
     }
 }

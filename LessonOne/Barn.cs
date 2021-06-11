@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LessonOne
 {
-    class Barn : Building
+    class Barn : Building, IAreaValue
     {
         readonly Light light = new();
         public string Material { get; private set; }
@@ -26,6 +26,7 @@ namespace LessonOne
             Console.WriteLine($"Материал изготовления: {Material}");
         }
 
+        // delegate method and Implementing the interface method
         public void TurningOnLight(bool turn)
         {
             light.TrunOnOf(turn);
