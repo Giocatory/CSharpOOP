@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace LessonOne
 {
+    // Inheritance class and interface
     class Barn : Building, IAreaValue
     {
         readonly Light light = new();

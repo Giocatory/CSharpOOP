@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LessonOne
 {
-    class Light
+    sealed class Light
     {
         public void TrunOnOf(bool turn)
         {

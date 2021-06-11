@@ -14,10 +14,11 @@ namespace LessonOne
             Console.WriteLine();
 
             // Cast type
+            // Error: newBuild will not see the TurningOnLight method, because it is not defined in the BUILDING class
+
             Building newBuild = new Barn("Test", 2, 2, 3, "Metal");
             if (newBuild is Barn barn)
             {
-                barn = (Barn)newBuild;
                 barn.GetParameters(barn);
                 barn.TurningOnLight(false);
             }
