@@ -2,14 +2,13 @@
 
 namespace LessonOne
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Barn build = new("Сарай", 1.78, 1.0, 0.98, "Дерево");
             build.GetParameters(build);
             build.TurningOnLight(true);
-
 
             Console.WriteLine();
 

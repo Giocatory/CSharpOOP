@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LessonOne
 {
     // Inheritance class and interface
-    class Barn : Building, IAreaValue
+    internal class Barn : Building, IAreaValue
     {
-        readonly Light light = new();
+        private readonly Light light = new();
         public string Material { get; private set; }
 
         public Barn(string name, double height, double width, double depth, string material)
