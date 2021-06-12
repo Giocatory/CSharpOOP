@@ -16,3 +16,9 @@
 > > + Delegation of method operation
 > > + Class type conversion
 > > + Operation of an "is" operator
+
+> Lesson Two [ru]
+> > + Начало изучения работы полиморфизма
+
+> Lesson Two [en]
+> > + The beginning of the study of the work of polymorphism
