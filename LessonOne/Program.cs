@@ -14,7 +14,7 @@ namespace LessonOne
 
             // Cast type
             // Error: newBuild.TurningOnLight(false);
-            // Error: newBuild will not see the TurningOnLight method, because it is not defined in the BUILDING class
+            // Error: newBuild will not see the TurningOnLight method, because it is not defined in the BUILDING class...
 
             Building newBuild = new Barn("Test", 2, 2, 3, "Metal");
             if (newBuild is Barn barn)
