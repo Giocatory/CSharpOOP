@@ -6,7 +6,6 @@
       <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAIgAAAAAA=</HashCode>
       <FileName>Barn.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="LessonOne.Building">
     <Position X="0.75" Y="2" Width="1.5" />

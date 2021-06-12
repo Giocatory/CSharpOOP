@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace LesseonTwo
 {
-    abstract class Weapon
+    internal abstract class Weapon
     {
         public abstract int Damage { get; }
-
 
         public abstract void Fire();
 

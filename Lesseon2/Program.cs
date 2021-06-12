@@ -2,12 +2,12 @@
 
 namespace LesseonTwo
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             Player player = new();
-            Weapon[] inventory= {new BaseGun(), new Bow(), new LaserGun()};
+            Weapon[] inventory = { new BaseGun(), new Bow(), new LaserGun() };
 
             foreach (var guns in inventory)
             {
