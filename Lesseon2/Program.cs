@@ -6,7 +6,7 @@ namespace LesseonTwo
     {
         static void Main()
         {
-            Player player = new Player();
+            Player player = new();
             Weapon[] inventory= {new BaseGun(), new Bow(), new LaserGun()};
 
             foreach (var guns in inventory)
