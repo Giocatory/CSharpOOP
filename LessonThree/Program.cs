@@ -7,7 +7,7 @@ namespace LessonThree
         static void Main()
         {
             // Work with Interface
-
+            IDataProcessor dataProcessor = new ConsoleDataProcessor();
         }
     }
 }
