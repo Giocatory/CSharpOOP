@@ -9,7 +9,8 @@ namespace LessonThree
             // Два интерфейса с одинаковыми методами
             // Two interfaces with the same methods
 
-
+            ClassForImplenents implenents = new ClassForImplenents();
+            implenents.ShowMessage();
         }
     }
 }
