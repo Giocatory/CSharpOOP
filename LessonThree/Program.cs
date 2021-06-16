@@ -4,10 +4,9 @@ namespace LessonThree
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            // Work with Interface
-            IDataProcessor dataProcessor = new ConsoleDataProcessor();
+            Console.WriteLine("Hello World!");
         }
     }
 }
