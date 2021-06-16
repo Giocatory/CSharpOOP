@@ -6,7 +6,10 @@ namespace LessonThree
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Два интерфейса с одинаковыми методами
+            // Two interfaces with the same methods
+
+
         }
     }
 }
