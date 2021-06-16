@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace LessonThree
 {
-        interface IOneInterface
-        {
-            void ShowMessage();
-        }
+    interface Interface1
+    {
+        void showClassName(object objectName) { Console.WriteLine(objectName.GetType().Name); }
+    }
 }
