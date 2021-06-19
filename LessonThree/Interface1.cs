@@ -8,6 +8,6 @@ namespace LessonThree
 {
     interface Interface1
     {
-        void showClassName(object objectName) { Console.WriteLine(objectName.GetType().Name); }
+        void showClassName(object objectName); /*{ Console.WriteLine(objectName.GetType().Name); }*/
     }
 }
