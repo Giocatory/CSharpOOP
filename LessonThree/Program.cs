@@ -2,9 +2,9 @@
 
 namespace LessonThree
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // Два интерфейса с одинаковыми методами
             // Two interfaces with the same methods
@@ -13,13 +13,11 @@ namespace LessonThree
             implenents.ShowMessage(); // "Watch message...."
             Console.WriteLine();
 
-
             if (implenents is IOneInterface oneInterface)
             {
                 oneInterface.ShowMessage(); // it's two methods message :)
             }
             Console.WriteLine();
-
 
             if (implenents is ITwoInterface twoInterface)
             {

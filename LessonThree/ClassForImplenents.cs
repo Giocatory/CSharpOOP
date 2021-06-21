@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LessonThree
 {
-    class ClassForImplenents : ITwoInterface, IOneInterface, Interface1
+    internal class ClassForImplenents : ITwoInterface, IOneInterface, Interface1
     {
         public void ShowMessage()
         {
@@ -17,11 +13,11 @@ namespace LessonThree
         {
             Console.WriteLine("it's two methods message :)");
         }
+
         void IOneInterface.ShowMessage()
         {
             Console.WriteLine("it's one methods message :)");
         }
-
 
         // если в интерфейсе есть метод с пустым телом или вообще с телом,
         // то его реализация не обязательна
