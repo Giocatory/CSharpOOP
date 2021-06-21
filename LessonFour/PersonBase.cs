@@ -9,10 +9,11 @@ namespace LessonFour
             Console.WriteLine("I'm eating...");
         }
 
-        partial void Read();
+        public partial void Read();
 
         public void DoSomething()
         {
+            Console.Write("everyday ");
             Read();
         }
     }
