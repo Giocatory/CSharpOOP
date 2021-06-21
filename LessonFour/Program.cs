@@ -1,12 +1,12 @@
-﻿using System;
-
-namespace LessonFour
+﻿namespace LessonFour
 {
     internal class Program
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Person tom = new Person();
+            tom.Eat();
+            tom.Move();
         }
     }
 }
