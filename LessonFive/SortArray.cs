@@ -2,15 +2,15 @@
 {
     internal class SortArray
     {
-        private int[] array;
+        private static int[] array;
 
-        public int[] SetArray(int[] newArray)
+        public static int[] SetArray(int[] newArray)
         {
             array = newArray;
             return array;
         }
 
-        public void MySort(int l, int r)
+        public static void MySort(int l, int r)
         {
             int i = l;
             int j = r;
