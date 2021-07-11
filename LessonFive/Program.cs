@@ -16,7 +16,8 @@ namespace LessonFive
             Console.WriteLine();
 
             SortArray sra = new SortArray();
-            sra.SetArray(array, 0, array.Length - 1);
+            sra.SetArray(array);
+            sra.MySort(0, array.Length-1);
 
             foreach (var i in array)
             {
