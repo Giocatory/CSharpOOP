@@ -29,3 +29,8 @@
 > Lesson Three [en]
 > > + Work with Interface
 
+> Lesson Four [ru]
+> > + Создание класса и объектов класса
+
+> Lesson Four [en]
+> > + Creating class and class objects
