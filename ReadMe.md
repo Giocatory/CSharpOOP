@@ -22,3 +22,10 @@
 
 > Lesson Two [en]
 > > + The beginning of the study of the work of polymorphism
+
+> Lesson Three [ru]
+> > + Работа с интерфейсами
+
+> Lesson Three [en]
+> > + Work with Interface
+
