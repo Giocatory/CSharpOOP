@@ -34,3 +34,9 @@
 
 > Lesson Four [en]
 > > + Creating class and class objects
+
+> Lesson Five [ru]
+> > + Быстрая сортировка
+
+> Lesson Five [en]
+> > + Quik Sort
