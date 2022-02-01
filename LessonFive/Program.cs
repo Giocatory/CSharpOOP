@@ -4,7 +4,7 @@ namespace LessonFive
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             int[] array = { 10, 98, 22, 15, 24, 78, 97, 22, 20, 1, 4, 6, 8, 7, 3, 11 };
 
@@ -15,9 +15,9 @@ namespace LessonFive
             }
             Console.WriteLine();
 
-            SortArray sra = new SortArray();
+            SortArray sra = new();
             sra.SetArray(array);
-            sra.MySort(0, array.Length-1);
+            sra.MySort(0, array.Length - 1);
 
             foreach (var i in array)
             {

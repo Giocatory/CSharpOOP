@@ -2,9 +2,9 @@
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
-            Person tom = new Person();
+            Person tom = new();
             tom.Eat();
             tom.Move();
             tom.Read();

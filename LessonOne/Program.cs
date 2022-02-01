@@ -4,7 +4,7 @@ namespace LessonOne
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             Barn build = new("Сарай", 1.78, 1.0, 0.98, "Дерево");
             build.GetParameters(build);

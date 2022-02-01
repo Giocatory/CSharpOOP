@@ -4,12 +4,12 @@ namespace LessonThree
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             // Два интерфейса с одинаковыми методами
             // Two interfaces with the same methods
 
-            ClassForImplenents implenents = new ClassForImplenents();
+            ClassForImplenents implenents = new();
             implenents.ShowMessage(); // "Watch message...."
             Console.WriteLine();
 

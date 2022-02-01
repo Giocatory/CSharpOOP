@@ -4,10 +4,7 @@
     {
         private int[] array;
 
-        public void SetArray(int[] newArray)
-        {
-            array = newArray;
-        }
+        public void SetArray(int[] newArray) => array = newArray;
 
         public void MySort(int l, int r)
         {
