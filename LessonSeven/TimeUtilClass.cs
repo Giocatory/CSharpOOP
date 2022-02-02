@@ -1,16 +1,20 @@
-﻿namespace LessonSeven
+﻿using static System.Console;
+using static System.DateTime;
+// Importing Static Members
+
+namespace LessonSeven
 {
     internal static class TimeUtilClass
     {
         // A static class can only contain static fields and methods
         public static void PrintTime()
         {
-            Console.WriteLine(DateTime.Now.ToShortTimeString());
+            WriteLine(Now.ToShortTimeString());
         }
 
         public static void PrintDate()
         {
-            Console.WriteLine(DateTime.Today.ToShortDateString());
+            WriteLine(Today.ToShortDateString());
         }
     }
 }

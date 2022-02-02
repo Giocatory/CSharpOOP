@@ -1,4 +1,4 @@
-﻿using LessonSeven;
+﻿using static LessonSeven.TimeUtilClass;
 
-TimeUtilClass.PrintTime(); // 11:32
-TimeUtilClass.PrintDate(); // 02.02.2022
+PrintTime(); // 11:32
+PrintDate(); // 02.02.2022
