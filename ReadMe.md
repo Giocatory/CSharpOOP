@@ -40,3 +40,8 @@
 
 > Lesson Five [en]
 > > + Quik Sort
+
+> Lesson Six
+> > + Chaining Constructors
+> > + Static filed
+> > + work with "this" for constructors
