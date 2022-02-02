@@ -7,14 +7,8 @@ namespace LessonSeven
     internal static class TimeUtilClass
     {
         // A static class can only contain static fields and methods
-        public static void PrintTime()
-        {
-            WriteLine(Now.ToShortTimeString());
-        }
+        public static void PrintTime() => WriteLine(Now.ToShortTimeString());
 
-        public static void PrintDate()
-        {
-            WriteLine(Today.ToShortDateString());
-        }
+        public static void PrintDate() => WriteLine(Today.ToShortDateString());
     }
 }
