@@ -45,3 +45,8 @@
 > > + Chaining Constructors
 > > + Static filed
 > > + work with "this" for constructors
+
+> Lesson Seven
+> > + Create static class
+> > + Create static methods
+> > + Import static member from static class (using ...)
