@@ -2,20 +2,23 @@
 {
     internal class NewCircle : Circle
     {
+
         public NewCircle() : this($"{nameof(NewCircle)}")
         {
         }
 
         public NewCircle(string name) : base(name)
         {
-            MyNewCircle = name;
+            PetName = name;
         }
 
-        public string MyNewCircle { get; set; }
+        public new string PetName { get; set; }
 
+        // Hide any Draw() implementation higher in the hierarchy
+        // {nameof(NewCircle)} => Circle
         public new void Draw()
         {
-            Console.WriteLine($"We draw {nameof(NewCircle)}: {MyNewCircle}");
+            Console.WriteLine($"We draw {nameof(NewCircle)}: {PetName}");
         }
     }
 }
