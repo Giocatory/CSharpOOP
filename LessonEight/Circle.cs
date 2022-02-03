@@ -1,9 +1,14 @@
 ﻿namespace LessonEight
 {
-    internal sealed class Circle : Shape
+    internal class Circle : Shape
     {
-        public Circle() : this("Circle") { }
-        public Circle(string name) : base(name) { }
+        public Circle() : this("Circle")
+        {
+        }
+
+        public Circle(string name) : base(name)
+        {
+        }
 
         public override void Draw()
         {
