@@ -50,3 +50,9 @@
 > > + Create static class
 > > + Create static methods
 > > + Import static member from static class (using ...)
+
+> Lesson Eight
+> > + abstract class
+> > + inheritance sealed class
+> > + polymorphism
+> > + hide any implementations
