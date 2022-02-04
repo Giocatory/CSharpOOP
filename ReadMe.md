@@ -44,6 +44,6 @@
 > > + override method Equals(object? obj)
 
 > Lesson Ten
-> Mini lesson for work with base knowledge Exceptions (try, catch, finally, then)
+> > * Mini lesson for work with base knowledge Exceptions (try, catch, finally, then) *
 > > + field from exception
 > > + throw new exception
