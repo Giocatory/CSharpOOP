@@ -13,3 +13,7 @@ Console.WriteLine(sc2.ToString()); // User: Mike; Age: 33; Class: SimpleClass
 SimpleClass sc3 = sc2;
 Console.WriteLine(sc2.Equals(sc3)); // True
 Console.WriteLine(sc.Equals(sc3)); // False
+Console.WriteLine(Object.Equals(sc2, sc3)); // True
+
+Console.WriteLine(sc2.GetHashCode()); // 43942917
+Console.WriteLine(sc2.GetType()); // LessonNine.SimpleClass
