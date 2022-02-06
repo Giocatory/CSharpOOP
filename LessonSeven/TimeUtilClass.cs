@@ -1,5 +1,6 @@
 ﻿using static System.Console;
 using static System.DateTime;
+
 // Importing Static Members
 
 namespace LessonSeven

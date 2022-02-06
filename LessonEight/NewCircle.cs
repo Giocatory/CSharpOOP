@@ -2,7 +2,6 @@
 {
     internal class NewCircle : Circle
     {
-
         public NewCircle() : this($"{nameof(NewCircle)}")
         {
         }
