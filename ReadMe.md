@@ -52,3 +52,9 @@
 > > Work with interfaces
 > > + interface implementation
 > > + interface transfer as a parameter
+
+> Lesson Twelve
+> > + explicit casting of interfaces
+> > + interfaces with the same method
+> > + class that implements all interfaces with the same methods
+> > + three options for interaction
