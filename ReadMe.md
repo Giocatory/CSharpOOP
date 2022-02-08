@@ -47,3 +47,8 @@
 > > Mini lesson for work with base knowledge Exceptions (try, catch, finally, then)
 > > + field from exception
 > > + throw new exception
+
+> Lesson Eleven
+> > Work with interfaces
+> > + interface implementation
+> > + interface transfer as a parameter
