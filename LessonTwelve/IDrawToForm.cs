@@ -1,6 +1,6 @@
 ﻿namespace LessonTwelve
 {
-    interface IDrawToForm
+    internal interface IDrawToForm
     {
         void Draw();
     }

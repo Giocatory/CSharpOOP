@@ -1,6 +1,6 @@
 ﻿namespace LessonTwelve
 {
-    interface IDrawToPrinter
+    internal interface IDrawToPrinter
     {
         void Draw();
     }

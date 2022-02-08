@@ -5,8 +5,6 @@
 // and a class that implements all interfaces
 Picture picture = new();
 
-
-
 //1
 IDrawToForm toForm = (IDrawToForm)picture;
 toForm.Draw(); // Draw to Form...

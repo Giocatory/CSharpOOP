@@ -1,6 +1,6 @@
 ﻿namespace LessonTwelve
 {
-    interface IDrawToMemory
+    internal interface IDrawToMemory
     {
         void Draw();
     }
