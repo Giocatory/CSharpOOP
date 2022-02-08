@@ -1,6 +1,8 @@
 ﻿using LessonTwelve;
 
 // explicit casting of interfaces
+// three interfaces with the same method
+// and a class that implements all interfaces
 Picture picture = new();
 
 
